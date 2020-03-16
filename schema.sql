@@ -13,3 +13,16 @@ CREATE TABLE products (
     product_sales DECIMAL(7,2) NULL,
     PRIMARY KEY (item_id)
     );
+    
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES("shampoo" "health & beauty", 7.42, 12, 100);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES("tshirt" "Apparel", 12.50, 30, 300);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES("popcorn", "food", 5.50, 50, 400);
+
+INSERT INTO products (product_name, department_name, price, stock_quantity, product_sales)
+VALUES("Monopoly", "games", 15.99, 80, 200);
+
